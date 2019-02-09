@@ -1,0 +1,48 @@
+//Chrome
+
+$bar--bg-color : #98bace;
+$bar--color : #346e91;
+$bar--width : 1em;
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: $bar--bg-color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $bar--color;
+  outline: 0px solid $bar--color;
+}
+
+// Firefox
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars
+html{
+  scrollbar-color: $bar--color $bar--bg-color;
+  scrollbar-width: thin;
+}
+
+
+body{
+  scrollbar-base-color: $bar--bg-color;
+  scrollbar-face-color: $bar--color;
+  scrollbar-face-border: 0px;
+  scrollbar-3dlight-color: transparent;
+  scrollbar-highlight-color: transparent;
+  scrollbar-track-color: $bar--bg-color;
+  scrollbar-arrow-color: $bar--bg-color;
+  scrollbar-shadow-color: $bar--color;
+  //scrollbar-dark-shadow-color: red;
+  //-ms-overflow-style: -ms-autohiding-scrollbar;
+  
+}
+
+
+/*
+https://caniuse.com/#feat=css-scrollbar
+https://developer.mozilla.org/en-US/docs/Web/CSS/-ms-scrollbar-face-color
+https://css-tricks.com/custom-scrollbars-in-webkit/
+*/

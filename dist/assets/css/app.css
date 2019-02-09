@@ -1,0 +1,46 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  margin: 0;
+  padding: 0; }
+
+body {
+  padding: 20px;
+  font-size: 12px;
+  color: white;
+  box-sizing: border-box;
+  text-align: justify; }
+
+::-webkit-scrollbar {
+  width: 1em; }
+
+body::-webkit-scrollbar-track {
+  background-color: #98bace; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #346e91;
+  outline: 0px solid #346e91; }
+
+html {
+  scrollbar-color: #346e91 #98bace;
+  scrollbar-width: thin; }
+
+body {
+  scrollbar-base-color: #98bace;
+  scrollbar-face-color: #346e91;
+  scrollbar-face-border: 0px;
+  scrollbar-3dlight-color: transparent;
+  scrollbar-highlight-color: transparent;
+  scrollbar-track-color: #98bace;
+  scrollbar-arrow-color: #98bace;
+  scrollbar-shadow-color: #346e91; }
+
+/*
+https://caniuse.com/#feat=css-scrollbar
+https://developer.mozilla.org/en-US/docs/Web/CSS/-ms-scrollbar-face-color
+https://css-tricks.com/custom-scrollbars-in-webkit/
+*/
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXNzZXRzL3Njc3MvYXBwLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGFBQWE7O0FBRWI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHNCQUFzQjs7QUFFdEI7QUFDQSxhQUFhOztBQUViO0FBQ0EsNEJBQTRCOztBQUU1QjtBQUNBO0FBQ0EsNkJBQTZCOztBQUU3QjtBQUNBO0FBQ0Esd0JBQXdCOztBQUV4QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDOztBQUVsQztBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6ImFzc2V0cy9jc3MvYXBwLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwsIGJvZHkge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjY2NjO1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7IH1cblxuYm9keSB7XG4gIHBhZGRpbmc6IDIwcHg7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgY29sb3I6IHdoaXRlO1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICB0ZXh0LWFsaWduOiBqdXN0aWZ5OyB9XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICB3aWR0aDogMWVtOyB9XG5cbmJvZHk6Oi13ZWJraXQtc2Nyb2xsYmFyLXRyYWNrIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzk4YmFjZTsgfVxuXG5ib2R5Ojotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzNDZlOTE7XG4gIG91dGxpbmU6IDBweCBzb2xpZCAjMzQ2ZTkxOyB9XG5cbmh0bWwge1xuICBzY3JvbGxiYXItY29sb3I6ICMzNDZlOTEgIzk4YmFjZTtcbiAgc2Nyb2xsYmFyLXdpZHRoOiB0aGluOyB9XG5cbmJvZHkge1xuICBzY3JvbGxiYXItYmFzZS1jb2xvcjogIzk4YmFjZTtcbiAgc2Nyb2xsYmFyLWZhY2UtY29sb3I6ICMzNDZlOTE7XG4gIHNjcm9sbGJhci1mYWNlLWJvcmRlcjogMHB4O1xuICBzY3JvbGxiYXItM2RsaWdodC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIHNjcm9sbGJhci1oaWdobGlnaHQtY29sb3I6IHRyYW5zcGFyZW50O1xuICBzY3JvbGxiYXItdHJhY2stY29sb3I6ICM5OGJhY2U7XG4gIHNjcm9sbGJhci1hcnJvdy1jb2xvcjogIzk4YmFjZTtcbiAgc2Nyb2xsYmFyLXNoYWRvdy1jb2xvcjogIzM0NmU5MTsgfVxuXG4vKlxyXG5odHRwczovL2Nhbml1c2UuY29tLyNmZWF0PWNzcy1zY3JvbGxiYXJcclxuaHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTLy1tcy1zY3JvbGxiYXItZmFjZS1jb2xvclxyXG5odHRwczovL2Nzcy10cmlja3MuY29tL2N1c3RvbS1zY3JvbGxiYXJzLWluLXdlYmtpdC9cclxuKi9cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
